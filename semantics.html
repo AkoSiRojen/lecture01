@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    *{
+        margin: 0;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    .box-1 {
+        background-color: green  ;
+        font-size: 50px;
+        margin-top: 50px;
+        padding-top: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding: 10px 20px 15px 12px;
+        font-family: 50px;
+        border: 10px solid white;
+        text-align: center;
+       
+    }
+    nav{
+        color: #333;
+        background-color: #555;
+     
+    }
+    nav ul li{
+        color: #333;
+        display: inline;
+        background-color: #555;
+    }
+     
+    nav ul{
+        list-style: none;
+        text-align: center;
+        background-color: #555;
+    }
+     
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+        transition: background-color 0.3s,  color 0.3s;
+    }
+    nav ul li a:hover{
+        background-color:  white;
+        color: #555;
+    }
+    header{
+        text-align: center;
+        background-color: #333;
+     
+        padding: 10px 20px 15px 12px;
+        font-family: 50px;
+    }
+    header h1{
+        list-style: none;
+        background-color: #333;
+        color: white;
+    }
+    header p{
+        list-style: none;
+        color: white;
+    }
+     
+     
+     
+     
+    .flex-box{
+        flex-direction: row;
+        display: flex;
+    }
+     
+    .Home{
+        flex-grow: 2;
+    }
+    .About{
+        flex-grow: 1;
+    }
+     
+    .flex-box2{
+        flex-direction: row;
+        display: flex;
+    
+    }
+    .links{
+        flex-grow: 1;
+        background-color: #f3f2f2;
+    }
+    .newaboutus{
+        flex-grow: 2;
+    }
+     
+     
+     
+    section {
+        background-color: #f9f9f9;
+        margin-top: 10px;
+        padding: 20px 0px 20px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: start;
+        line-height: 50px;
+     
+    }
+    article{
+        background-color: #f9f9f9;
+        margin-top: 10px;
+        padding: 20px 0px 20px 0px;
+        text-align: start;
+    }
+     
+    section aside{
+        background-color: #f0f0f0;
+        margin-top: 10px;
+        line-height: 20px;
+    }
+    footer{
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+     </style>
+</head>
+<body>
+   
+    <header>
+        <h1>Sample Website</h1>
+        <p> Welcome to my sample website</p>
+    </header>
+    <nav>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </nav>
+ 
+    <main class="flex-box">
+        <section class="Home">
+            <h2>Home</h2>
+            <p>This is the home section of our website</p>
+        </section>
+ 
+        <section class="About">
+            <h2>About Us</h2>
+            <p>This is about the section of our website</p>
+        </section>
+       
+    </main>
+ 
+    <main class="flex-box2">
+        <section class="links">
+        <aside>
+            <h2> Related Links </h2>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </aside>
+    </section>
+ 
+    <section class="newaboutus">
+        <h2> About Us </h2>
+            <p> This is about section of our website </p>
+        <h2> Latest News</h2>
+        <p>This is the latest news article</p>
+    </section>
+    </main>
+ 
+        <section>
+            <h2> Home </h2>
+            <p> This is the home of our website </p>
+           
+           
+        </section>
+        <section>
+                <h2> About Us</h2>
+                <p> This is the the section of our website</p>
+ 
+        </section>
+    </main>
+   
+<footer>
+    <p>&copy; 2025 Your Company Name &bull; All rights reserved &reg;</p>
+    <p> Made with &hearts; by JeiSquared</p>
+</footer>
+</body>
+</html>
